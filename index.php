@@ -173,7 +173,7 @@ include "./components/navbar.php";
                                 <div class="row justify-content-between">
                                     <div class="col-lg-5">
                                         <div class="img th-525 parallaxed">
-                                            <img src="assets/img/portfolio/port7-1.jpg" alt="" class="img-cover">
+                                            <img src="assets/img/contentStudio.jpg" alt="" class="img-cover">
                                         </div>
                                     </div>
                                     <div class="col-lg-5">
@@ -196,7 +196,7 @@ include "./components/navbar.php";
                                 <div class="row justify-content-between">
                                     <div class="col-lg-5">
                                         <div class="img th-525 parallaxed">
-                                            <img src="assets/img/portfolio/port7-2.jpg" alt="" class="img-cover">
+                                            <img src="assets/img/creativeStudio.jpg" alt="" class="img-cover">
                                         </div>
                                     </div>
                                     <div class="col-lg-5">
