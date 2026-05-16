@@ -6,34 +6,78 @@ include "./components/navbar.php";
                 <div class="hero-slider">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                            <div class="slide-item">
-                                <div class="container">
-                                    <div class="info col-lg-8">
-                                        <h1 class="split-text"> Crafted To Fit Your Identity </h1>
-                                        <div class="text fsz-20 mt-30">Bespoke tailoring, precision alterations, and custom fashion designed with timeless craftsmanship and modern style.</div>
+                            <div class="slide-item position-relative overflow-hidden">
+                                <div class="position-absolute top-0 start-0 w-100 h-100" style="background: rgba(0,0,0,0.45); z-index: 1;"></div>
+                                <div class="container position-relative" style="z-index: 2;">
+                                    <div class="info col-lg-8 text-white">
+                                        <h1 class="split-text">Crafted To Fit Your Identity</h1>
+
+                                        <div class="text fsz-20 mt-30">
+                                            Bespoke tailoring, precision alterations, and custom fashion designed with timeless craftsmanship and modern style.
+                                        </div>
+
                                         <div class="btns mt-5 d-flex">
-                                            <a href="booking" class="butn border border-white text-white hover-bg-brown1 hvr-txt-trans text-capitalize px-lg-5"> <div class="txt" data-text="Book Now"><span> Book Now </span></div> </a>
-                                            <a href="https://www.youtube.com/shorts/FmguG5m7LKM" target="_blank" class="icon-50 bg-white rounded-circle cr-000 dnf-center ms-4 hover-bg-brown1"> <i class="fas fa-play"></i> </a>
+                                            <a href="booking"
+                                            class="butn border border-white text-white hover-bg-brown1 hvr-txt-trans text-capitalize px-lg-5">
+                                                <div class="txt" data-text="Book Now">
+                                                    <span>Book Now</span>
+                                                </div>
+                                            </a>
+
+                                            <a href="https://www.youtube.com/shorts/FmguG5m7LKM"
+                                            target="_blank"
+                                            class="icon-50 bg-white rounded-circle cr-000 dnf-center ms-4 hover-bg-brown1">
+                                                <i class="fas fa-play"></i>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
-                                <img src="assets/img/OTG_8821.jpg" alt="" class="bg d-block mx-auto" style="object-position: center 80%;">
+                                <img src="assets/img/OTG_8821.jpg" alt="" class="bg d-block mx-auto w-100" style="object-fit: cover; object-position: center 80%;">
+
                             </div>
                         </div>
 
                         <div class="swiper-slide">
-                            <div class="slide-item">
-                                <div class="container">
-                                    <div class="info col-lg-8">
+                            <div class="slide-item position-relative overflow-hidden">
+
+                                <!-- OVERLAY -->
+                                <div class="position-absolute top-0 start-0 w-100 h-100"
+                                    style="background: rgba(0,0,0,0.45); z-index: 1;"></div>
+
+                                <!-- CONTENT -->
+                                <div class="container position-relative" style="z-index: 2;">
+                                    <div class="info col-lg-8 text-white">
+
                                         <h1 class="split-text">Create. Capture. Inspire.</h1>
-                                        <div class="text fsz-20 mt-30">A premium creative studio for photography, video production, podcasts, and fashion-forward visual storytelling.</div>
-                                        <div class="btns mt-5 d-flex">
-                                            <a href="booking" class="butn border border-white text-white hover-bg-brown1 hvr-txt-trans text-capitalize px-lg-5"> <div class="txt" data-text="Book Now"><span> Book Now </span></div> </a>
-                                            <a href="https://www.youtube.com/shorts/cy-p5gC0gPc" target="_blank" class="icon-50 bg-white rounded-circle cr-000 dnf-center ms-4 hover-bg-brown1"> <i class="fas fa-play"></i> </a>
+
+                                        <div class="text fsz-20 mt-30">
+                                            A premium creative studio for photography, video production, podcasts, and fashion-forward visual storytelling.
                                         </div>
+
+                                        <div class="btns mt-5 d-flex">
+                                            <a href="booking"
+                                            class="butn border border-white text-white hover-bg-brown1 hvr-txt-trans text-capitalize px-lg-5">
+                                                <div class="txt" data-text="Book Now">
+                                                    <span>Book Now</span>
+                                                </div>
+                                            </a>
+
+                                            <a href="https://www.youtube.com/shorts/cy-p5gC0gPc"
+                                            target="_blank"
+                                            class="icon-50 bg-white rounded-circle cr-000 dnf-center ms-4 hover-bg-brown1">
+                                                <i class="fas fa-play"></i>
+                                            </a>
+                                        </div>
+
                                     </div>
                                 </div>
-                                <img src="assets/img/OTG_8767.jpg" alt="" class="bg d-block mx-auto" style="object-position: center 80%;">
+
+                                <!-- BACKGROUND IMAGE -->
+                                <img src="assets/img/OTG_8767.jpg"
+                                    alt=""
+                                    class="bg d-block mx-auto w-100"
+                                    style="object-fit: cover; object-position: center 80%;">
+
                             </div>
                         </div>
                     </div>
