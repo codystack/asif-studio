@@ -1,0 +1,26 @@
+/*-----------------------------------------------------------------------------------
+
+	Theme Name: Artevo
+	Theme URI: http://
+	Description: Creative agency & portfolio
+	Author: ui-themez
+	Author URI: https://themeforest.net/user/uicamp
+	Version: 1.0
+
+-----------------------------------------------------------------------------------*/
+
+/* ----------------------------------------------------------------
+			[ All Css Plugins ]
+-----------------------------------------------------------------*/
+
+/* == fontawesome 6 pro == */
+@import url("plugins/all.css");
+
+/* == animate css == */
+@import url("plugins/animate.css");
+
+/* == lity popup == */
+@import url("plugins/lity.css");
+
+/* == swiper 8 == */
+@import url("plugins/swiper8.min.css");
