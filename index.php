@@ -8,54 +8,41 @@ include "./components/navbar.php";
                         <div class="swiper-slide">
                             <div class="slide-item">
                                 <div class="container">
-                                    <div class="info col-lg-7">
-                                        <h1 class="split-text"> Craft. Create. Comfort. </h1>
-                                        <div class="text fsz-20 mt-30"> Mastering Wood Craft Built With Precision Artisan Furniture Crafting Shaping Timeless Designs </div>
+                                    <div class="info col-lg-8">
+                                        <h1 class="split-text"> Crafted To Fit Your Identity </h1>
+                                        <div class="text fsz-20 mt-30">Bespoke tailoring, precision alterations, and custom fashion designed with timeless craftsmanship and modern style.</div>
                                         <div class="btns mt-5 d-flex">
-                                            <a href="#" class="butn border border-white text-white hover-bg-brown1 hvr-txt-trans text-capitalize px-lg-5"> <div class="txt" data-text="Order Now"><span> Order Now </span></div> </a>
-                                            <a href="#" class="icon-50 bg-white rounded-circle cr-000 dnf-center ms-4 hover-bg-brown1"> <i class="fas fa-play"></i> </a>
+                                            <a href="booking" class="butn border border-white text-white hover-bg-brown1 hvr-txt-trans text-capitalize px-lg-5"> <div class="txt" data-text="Book Now"><span> Book Now </span></div> </a>
+                                            <a href="https://www.youtube.com/shorts/FmguG5m7LKM" target="_blank" class="icon-50 bg-white rounded-circle cr-000 dnf-center ms-4 hover-bg-brown1"> <i class="fas fa-play"></i> </a>
                                         </div>
                                     </div>
                                 </div>
-                                <img src="assets/img/hero7-1.jpg" alt="" class="bg">
+                                <img src="assets/img/OTG_8821.jpg" alt="" class="bg d-block mx-auto" style="object-position: center 80%;">
                             </div>
                         </div>
+
                         <div class="swiper-slide">
                             <div class="slide-item">
                                 <div class="container">
-                                    <div class="info col-lg-7">
-                                        <h1 class="split-text"> Craft. Create. Comfort. </h1>
-                                        <div class="text fsz-20 mt-30"> Mastering Wood Craft Built With Precision Artisan Furniture Crafting Shaping Timeless Designs </div>
+                                    <div class="info col-lg-8">
+                                        <h1 class="split-text">Create. Capture. Inspire.</h1>
+                                        <div class="text fsz-20 mt-30">A premium creative studio for photography, video production, podcasts, and fashion-forward visual storytelling.</div>
                                         <div class="btns mt-5 d-flex">
-                                            <a href="#" class="butn border border-white text-white hover-bg-brown1 hvr-txt-trans text-capitalize px-lg-5"> <div class="txt" data-text="Order Now"><span> Order Now </span></div> </a>
-                                            <a href="#" class="icon-50 bg-white rounded-circle cr-000 dnf-center ms-4 hover-bg-brown1"> <i class="fas fa-play"></i> </a>
+                                            <a href="booking" class="butn border border-white text-white hover-bg-brown1 hvr-txt-trans text-capitalize px-lg-5"> <div class="txt" data-text="Book Now"><span> Book Now </span></div> </a>
+                                            <a href="https://www.youtube.com/shorts/cy-p5gC0gPc" target="_blank" class="icon-50 bg-white rounded-circle cr-000 dnf-center ms-4 hover-bg-brown1"> <i class="fas fa-play"></i> </a>
                                         </div>
                                     </div>
                                 </div>
-                                <img src="assets/img/hero7-2.jpg" alt="" class="bg">
+                                <img src="assets/img/OTG_8767.jpg" alt="" class="bg d-block mx-auto" style="object-position: center 80%;">
                             </div>
                         </div>
                     </div>
                     <div class="swiper-pagination swiper-pagination-st2 hrz-pagination"></div>
                 </div>
-                <div class="btm-cont">
-                    <div class="container">
-                        <div class="d-lg-flex justify-content-between align-items-center">
-                            <div class="txt fsz-16"> Scroll </div>
-                            <div class="txt fsz-12 my-3"> I have two – <a href="#" class="text-decoration-underline"> MAIL ME </a> </div>
-                            <a href="#" class="icon-40 bg-white rounded-circle cr-000 dnf-center ms-lg-4 hover-bg-brown1"> <i class="fas fa-chevron-right"></i> </a>
-                        </div>
-                    </div>
-                </div>
             </header>
-            <!--  End hero  -->
 
 
-            <!--Contents-->
             <main>
-                
-
-                <!--  Start about  -->
                 <section class="tc-about-st7 section-padding">
                     <div class="container">
                         <div class="row">
