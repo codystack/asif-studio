@@ -231,36 +231,8 @@ include "./components/navbar.php";
                 </section>
                 <!--  End portfolio  -->
 
-
-                <!--  Start clients  -->
-                <section class="tc-clients-st1 pb-120 bg-light3">
-                    <div class="container">
-                        <div class="clients-slider position-relative overflow-hidden wow fadeInUp">
-                            <div class="swiper-wrapper text-center">
-                                <div class="swiper-slide">
-                                    <a href="#" class="brand"> <img src="assets/img/brands/1.svg" alt="" class="img-contain"> </a>
-                                </div>
-                                <div class="swiper-slide">
-                                    <a href="#" class="brand"> <img src="assets/img/brands/2.svg" alt="" class="img-contain"> </a>
-                                </div>
-                                <div class="swiper-slide">
-                                    <a href="#" class="brand"> <img src="assets/img/brands/3.svg" alt="" class="img-contain"> </a>
-                                </div>
-                                <div class="swiper-slide">
-                                    <a href="#" class="brand"> <img src="assets/img/brands/4.svg" alt="" class="img-contain"> </a>
-                                </div>
-                                <div class="swiper-slide">
-                                    <a href="#" class="brand"> <img src="assets/img/brands/5.svg" alt="" class="img-contain"> </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <!--  End clients  -->
-
-
                 <!--  Start testimonials  -->
-                <section class="tc-testimonials-st7 section-padding">
+                <!-- <section class="tc-testimonials-st7 section-padding">
                     <div class="container">
                         <div class="title-wrapper text-center mb-60">
                             <div class="sub-title fsz-16 text-uppercase cr-brown1"> Testimonials </div>
@@ -314,7 +286,7 @@ include "./components/navbar.php";
                             <div class="swiper-pagination swiper-pagination-st1"></div>
                         </div>
                     </div>
-                </section>
+                </section> -->
                 <!--  End testimonials  -->
 
                 
