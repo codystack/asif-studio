@@ -48,7 +48,7 @@ include "./components/navbar.php";
                         <div class="row">
                             <div class="col-lg-6">
                                 <div class="title-side d-flex flex-column h-100 justify-content-between align-items-start">
-                                    <h2 class="fsz-100 letters-line"> About us <br> Artevo </h2>
+                                    <h2 class="fsz-100 letters-line"> About us <br> Asif Studio </h2>
                                     <div class="number-wrapper">
                                         <h3 class="num wow fadeInUp" data-wow-delay="0.1s"> 12 </h3>
                                         <span class="float-txt"> Years Of Experiences </span>
@@ -72,9 +72,8 @@ include "./components/navbar.php";
                                         </a>
                                         <span class="icon"> <img src="assets/img/ab3-ico.png" alt=""> </span>
                                     </div>
-                                    <h2 class="fsz-100 text-lg-end mt-40 letters-line"> Furniture <br> Maker </h2>
-                                    <div class="text fsz-16 cr-666 col-lg-5 mt-5 mt-lg-0"> Furniture making is a blend of art, skill, and craftsmanship—where raw materials transfred into beautiful, function pieces that enhance everyday living. Each piece is to thoughtfully designed, precisel measured, and expertly crafted to ensure durability, comfort, timeless appeal a deep tradition. </div>
-                                    <a href="#" class="fsz-16 text-decoration-underline mt-40 hover-brown1"> More About <i class="fal fa-angle-right ms-3"></i> </a>
+                                    <h2 class="fsz-100 text-lg-end mt-40 letters-line"> Fashion <br> Meets Creativity </h2>
+                                    <div class="text fsz-16 cr-666 col-lg-5 mt-5 mt-lg-0"> Asif Studio is a modern creative space in Milton Keynes combining luxury tailoring with high-quality content production. From bespoke garments and alterations to professional photography, videography, and podcasts, we help individuals and brands bring their vision to life. </div>
                                 </div>
                             </div>
                         </div>
@@ -117,52 +116,8 @@ include "./components/navbar.php";
                 <!--  End features  -->
 
 
-                <!--  Start features  -->
-                <section class="tc-features-st6 pt-90 pb-120 text-center">
-                    <div class="container">
-                        <div class="cards">
-                            <div class="row gx-0">
-                                <div class="col-lg-3">
-                                    <div class="feat-card-st6 wow fadeInUp mt-30">
-                                        <div class="icon-40 mb-30 mx-auto">
-                                            <img src="assets/img/icons/feat6-1.svg" alt="" class="img-cont">
-                                        </div>
-                                        <h6 class="fsz-16"> Free Shipping & Returns </h6>
-                                    </div>
-                                </div>
-                                <div class="col-lg-3">
-                                    <div class="feat-card-st6 wow fadeInUp mt-30" data-wow-delay="0.1s">
-                                        <div class="icon-40 mb-30 mx-auto">
-                                            <img src="assets/img/icons/feat6-2.svg" alt="" class="img-cont">
-                                        </div>
-                                        <h6 class="fsz-16"> Money Back Guarantee </h6>
-                                    </div>
-                                </div>
-                                <div class="col-lg-3">
-                                    <div class="feat-card-st6 wow fadeInUp mt-30" data-wow-delay="0.2s">
-                                        <div class="icon-40 mb-30 mx-auto">
-                                            <img src="assets/img/icons/feat6-3.svg" alt="" class="img-cont">
-                                        </div>
-                                        <h6 class="fsz-16"> Online Support 24/7 </h6>
-                                    </div>
-                                </div>
-                                <div class="col-lg-3">
-                                    <div class="feat-card-st6 wow fadeInUp mt-30" data-wow-delay="0.3s">
-                                        <div class="icon-40 mb-30 mx-auto">
-                                            <img src="assets/img/icons/feat6-4.svg" alt="" class="img-cont">
-                                        </div>
-                                        <h6 class="fsz-16"> Regular Sales </h6>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <!--  End features  -->
-
-
                 <!--  Start portfolio  -->
-                <section class="tc-portfolio-st7 section-padding bg-light3">
+                <section class="tc-portfolio-st7 section-padding mt-120 bg-light3">
                     <div class="container">
                         <div class="title-wrapper">
                             <h2 class="fsz-100 letters-line"> Special Clients <span class="d-block offset-lg-3"> for New Project </span> </h2>
