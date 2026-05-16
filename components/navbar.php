@@ -13,7 +13,7 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="./">Home</a>
                             </li>
-                            <li class="nav-item dropdown">
+                            <!-- <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                     aria-expanded="false">
                                     Studios
@@ -21,11 +21,10 @@
                                 <ul class="dropdown-menu">
                                     <li><a class="dropdown-item" href="20-projects-pg.html">projects Page</a></li>
                                     <li><a class="dropdown-item" href="21-project-det-pg.html">project details Page</a></li>
-                                    <li><a class="dropdown-item" href="12-fullscreen-slider.html">fullscreen slider</a></li>
-                                    <li><a class="dropdown-item" href="13-peel-slider.html">peel slider</a></li>
-                                    <li><a class="dropdown-item" href="14-flyeye-slider.html">flyeye slider</a></li>
-                                    <li><a class="dropdown-item" href="15-grid-home.html">grid home</a></li>
                                 </ul>
+                            </li> -->
+                            <li class="nav-item">
+                                <a class="nav-link" href="features">Features</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="faq">FAQs</a>

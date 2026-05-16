@@ -135,21 +135,20 @@ include "./components/navbar.php";
                                 <div class="col-lg-6">
                                     <div class="feature-card-st7 wow clippy-img">
                                         <div class="img">
-                                            <img src="assets/img/feat7-1.jpg" alt="" class="img-cover">
+                                            <img src="assets/img/OTG_8666.jpg" alt="" class="img-cover">
                                         </div>
                                         <div class="info">
-                                            <h2 class="fsz-55"> New Drops Collections </h2>
+                                            <h2 class="fsz-55"> The Content<br>Studio </h2>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="feature-card-st7 wow clippy-img">
                                         <div class="img">
-                                            <img src="assets/img/feat7-2.jpg" alt="" class="img-cover">
+                                            <img src="assets/img/Sewing_8666.jpg" alt="" class="img-cover">
                                         </div>
                                         <div class="info">
-                                            <h2 class="fsz-55"> Style Speaks You </h2>
-                                            <div class="text fsz-16 mt-15"> If you tell me the exact brand vibe  I can fine-tune the tone. </div>
+                                            <h2 class="fsz-55"> The Creative<br>Studio </h2>
                                         </div>
                                     </div>
                                 </div>
@@ -164,14 +163,13 @@ include "./components/navbar.php";
                 <section class="tc-portfolio-st7 section-padding mt-120 bg-light3">
                     <div class="container">
                         <div class="title-wrapper">
-                            <h2 class="fsz-100 letters-line"> Special Clients <span class="d-block offset-lg-3"> for New Project </span> </h2>
+                            <h2 class="fsz-100 letters-line"> Your Creative <span class="d-block offset-lg-3"> Space Awaits </span> </h2>
                             <div class="cont col-lg-4 offset-lg-4">
-                                <div class="text fsz-16 cr-666 mt-30"> Digital marketing refers to the use of digital channels, platforms, and technologies to promote products or services to consumers. </div>
-                                <a href="#" class="butn bg-brown1 hover-bg-black hvr-txt-trans text-capitalize mt-30"> <div class="txt" data-text="View All"><span> View All </span></div> <i class="fal fa-chevron-right ms-3"></i> </a>
+                                <div class="text fsz-16 cr-666 mt-30"> From content shoots to podcasts and fashion productions, our studio is designed for creators and brands. </div>
                             </div>
                         </div>
                         <div class="cards pt-30 parallaxed-container">
-                            <a href="#0" class="port-card-st7 d-block py-4 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="port-card-st7 d-block py-4 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="row justify-content-between">
                                     <div class="col-lg-5">
                                         <div class="img th-525 parallaxed">
@@ -181,15 +179,20 @@ include "./components/navbar.php";
                                     <div class="col-lg-5">
                                         <div class="info py-5 d-flex flex-column justify-content-between h-100 pe-lg-5">
                                             <div class="top-cont">
-                                                <h3 class="fsz-30"> Renewable source <br> of power </h3>
-                                                <div class="text fsz-16 cr-666 mt-20"> Furniture making blend craftsmanship, creativity,  precision. From selecting high-quality materials to shaping and assembling each piece. </div>
+                                                <h3 class="fsz-30"> Content  <br> Studio </h3>
+                                                <div class="text fsz-16 cr-666 mt-20"> A professional content studio designed for creators, brands, and businesses looking to produce premium visuals and engaging content in a modern creative environment. </div>
                                             </div>
-                                            <div class="tag fsz-16 cr-brown1 text-uppercase mt-30"> Interior / 2025 </div>
+                                            <div class="">
+                                                <a href="booking" class="butn bg-brown1 hover-bg-black hvr-txt-trans text-capitalize mt-30"> 
+                                                    <div class="txt" data-text="Book a Space"><span> Book a Space </span></div> <i class="fal fa-chevron-right ms-3"></i> 
+                                                </a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </a>
-                            <a href="#0" class="port-card-st7 d-block py-4 wow fadeInUp" data-wow-delay="0.2s">
+                            </div>
+
+                            <div class="port-card-st7 d-block py-4 wow fadeInUp mt-80" data-wow-delay="0.2s">
                                 <div class="row justify-content-between">
                                     <div class="col-lg-5">
                                         <div class="img th-525 parallaxed">
@@ -199,32 +202,18 @@ include "./components/navbar.php";
                                     <div class="col-lg-5">
                                         <div class="info py-5 d-flex flex-column justify-content-between h-100 pe-lg-5">
                                             <div class="top-cont">
-                                                <h3 class="fsz-30"> Technology, and Future of Sustainable Solar Energy </h3>
-                                                <div class="text fsz-16 cr-666 mt-20"> Furniture making blend craftsmanship, creativity,  precision. From selecting high-quality materials to shaping and assembling each piece. </div>
+                                                <h3 class="fsz-30"> Creative <br> Studio </h3>
+                                                <div class="text fsz-16 cr-666 mt-20"> A professional content studio designed for creators, brands, and businesses looking to produce premium visuals and engaging content in a modern creative environment. </div>
                                             </div>
-                                            <div class="tag fsz-16 cr-brown1 text-uppercase mt-30"> Boardroom  / 2025 </div>
+                                            <div class="">
+                                                <a href="booking" class="butn bg-brown1 hover-bg-black hvr-txt-trans text-capitalize mt-30"> 
+                                                    <div class="txt" data-text="Book Now"><span> Book Now </span></div> <i class="fal fa-chevron-right ms-3"></i> 
+                                                </a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </a>
-                            <a href="#0" class="port-card-st7 d-block py-4 wow fadeInUp" data-wow-delay="0.3s">
-                                <div class="row justify-content-between">
-                                    <div class="col-lg-5">
-                                        <div class="img th-525 parallaxed">
-                                            <img src="assets/img/portfolio/port7-3.jpg" alt="" class="img-cover">
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-5">
-                                        <div class="info py-5 d-flex flex-column justify-content-between h-100 pe-lg-5">
-                                            <div class="top-cont">
-                                                <h3 class="fsz-30"> Panels or modernizing <br> older systems </h3>
-                                                <div class="text fsz-16 cr-666 mt-20"> Furniture making blend craftsmanship, creativity,  precision. From selecting high-quality materials to shaping and assembling each piece. </div>
-                                            </div>
-                                            <div class="tag fsz-16 cr-brown1 text-uppercase mt-30"> Furniture / 2025 </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
+                            </div>
                         </div>
                     </div>
                     <img src="assets/img/port7-bg.png" alt="" class="shap">
