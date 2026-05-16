@@ -51,8 +51,9 @@
                         <div class="row align-items-center">
                             <div class="col-lg-10">
                                 <div class="social-links">
-                                    <a href="#"> <i class="fab fa-tiktok"></i> <span class="txt mx-2"> Tiktok </span> <i class="fal fa-arrow-up-right"></i> </a>
-                                    <a href="#"> <i class="fab fa-instagram"></i> <span class="txt mx-2"> Instagram </span> <i class="fal fa-arrow-up-right"></i> </a>
+                                    <a href="https://www.tiktok.com/@asifstudiomk" target="_blank"> <i class="fab fa-tiktok"></i> <span class="txt mx-2"> Tiktok </span> <i class="fal fa-arrow-up-right"></i> </a>
+                                    <a href="https://www.instagram.com/asifstudio.mk/" target="_blank"> <i class="fab fa-instagram"></i> <span class="txt mx-2"> Instagram </span> <i class="fal fa-arrow-up-right"></i> </a>
+                                    <a href="https://www.youtube.com/@AsifStudio-Mk" target="_blank"> <i class="fab fa-youtube"></i> <span class="txt mx-2"> Youtube </span> <i class="fal fa-arrow-up-right"></i> </a>
                                 </div>
                             </div>
                             <div class="col-lg-2 text-end d-none d-lg-block">
