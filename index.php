@@ -2,90 +2,73 @@
 include "./components/head.php";
 include "./components/navbar.php";
 ?>
+
             <header class="tc-hero-st7">
                 <div class="hero-slider">
                     <div class="swiper-wrapper">
+
+                        <!-- Slide 1 -->
                         <div class="swiper-slide">
                             <div class="slide-item position-relative overflow-hidden">
                                 <div class="position-absolute top-0 start-0 w-100 h-100" style="background: rgba(0,0,0,0.45); z-index: 1;"></div>
                                 <div class="container position-relative" style="z-index: 2;">
                                     <div class="info col-lg-8 text-white">
                                         <h1 class="split-text">Crafted To Fit Your Identity</h1>
-
                                         <div class="text fsz-20 mt-30">
-                                            Bespoke tailoring, precision alterations, and custom fashion designed with timeless craftsmanship and modern style.
+                                            Asif Studio is a premium creative space designed to inspire expressiom, storytelling, and high-quality content creation.
                                         </div>
-
                                         <div class="btns mt-5 d-flex">
                                             <a href="booking"
                                             class="butn border border-white text-white hover-bg-brown1 hvr-txt-trans text-capitalize px-lg-5">
-                                                <div class="txt" data-text="Book Now">
-                                                    <span>Book Now</span>
-                                                </div>
+                                                <div class="txt" data-text="Book Now"><span>Book Now</span></div>
                                             </a>
-
-                                            <a href="https://www.youtube.com/shorts/FmguG5m7LKM"
-                                            target="_blank"
-                                            class="icon-50 bg-white rounded-circle cr-000 dnf-center ms-4 hover-bg-brown1">
+                                            <button onclick="openVideoModal('FmguG5m7LKM')"
+                                                    aria-label="Play video"
+                                                    class="icon-50 bg-white rounded-circle cr-000 dnf-center ms-4 hover-bg-brown1"
+                                                    style="border:none; cursor:pointer;">
                                                 <i class="fas fa-play"></i>
-                                            </a>
+                                            </button>
                                         </div>
                                     </div>
                                 </div>
-                                <img src="assets/img/OTG_8821.jpg" alt="" class="bg d-block mx-auto w-100" style="object-fit: cover; object-position: center 80%;">
-
+                                <img src="assets/img/OTG_8617.jpg" alt="" class="bg d-block mx-auto w-100" style="object-fit: cover; object-position: center 80%;">
                             </div>
                         </div>
 
+                        <!-- Slide 2 -->
                         <div class="swiper-slide">
                             <div class="slide-item position-relative overflow-hidden">
-
-                                <!-- OVERLAY -->
-                                <div class="position-absolute top-0 start-0 w-100 h-100"
-                                    style="background: rgba(0,0,0,0.45); z-index: 1;"></div>
-
-                                <!-- CONTENT -->
+                                <div class="position-absolute top-0 start-0 w-100 h-100" style="background: rgba(0,0,0,0.45); z-index: 1;"></div>
                                 <div class="container position-relative" style="z-index: 2;">
                                     <div class="info col-lg-8 text-white">
-
                                         <h1 class="split-text">Create. Capture. Inspire.</h1>
-
                                         <div class="text fsz-20 mt-30">
-                                            A premium creative studio for photography, video production, podcasts, and fashion-forward visual storytelling.
+                                            Our studio is open to all brands, creatives, photographers, videographers, and individuals, seeking a refined versatile environment to bring their ideas to life.
                                         </div>
-
                                         <div class="btns mt-5 d-flex">
                                             <a href="booking"
                                             class="butn border border-white text-white hover-bg-brown1 hvr-txt-trans text-capitalize px-lg-5">
-                                                <div class="txt" data-text="Book Now">
-                                                    <span>Book Now</span>
-                                                </div>
+                                                <div class="txt" data-text="Book Now"><span>Book Now</span></div>
                                             </a>
-
-                                            <a href="https://www.youtube.com/shorts/cy-p5gC0gPc"
-                                            target="_blank"
-                                            class="icon-50 bg-white rounded-circle cr-000 dnf-center ms-4 hover-bg-brown1">
+                                            <button onclick="openVideoModal('cy-p5gC0gPc')"
+                                                    aria-label="Play video"
+                                                    class="icon-50 bg-white rounded-circle cr-000 dnf-center ms-4 hover-bg-brown1"
+                                                    style="border:none; cursor:pointer;">
                                                 <i class="fas fa-play"></i>
-                                            </a>
+                                            </button>
                                         </div>
-
                                     </div>
                                 </div>
-
-                                <!-- BACKGROUND IMAGE -->
-                                <img src="assets/img/OTG_8767.jpg"
-                                    alt=""
-                                    class="bg d-block mx-auto w-100"
-                                    style="object-fit: cover; object-position: center 80%;">
-
+                                <img src="assets/img/OTG_8767.jpg" alt="" class="bg d-block mx-auto w-100" style="object-fit: cover; object-position: center 80%;">
                             </div>
                         </div>
+
                     </div>
                     <div class="swiper-pagination swiper-pagination-st2 hrz-pagination"></div>
                 </div>
             </header>
 
-
+            
             <main>
                 <section class="tc-about-st7 section-padding">
                     <div class="container">
@@ -196,7 +179,7 @@ include "./components/navbar.php";
                                 <div class="row justify-content-between">
                                     <div class="col-lg-5">
                                         <div class="img th-525 parallaxed">
-                                            <img src="assets/img/creativeStudio.jpg" alt="" class="img-cover">
+                                            <img src="assets/img/creativeStudio.jpg6" alt="" class="img-cover">
                                         </div>
                                     </div>
                                     <div class="col-lg-5">
@@ -283,5 +266,79 @@ include "./components/navbar.php";
 
             </main>
 
+            <!-- ===== VIDEO MODAL (outside <main>, before </body>) ===== -->
+            <div id="videoModal"
+                role="dialog"
+                aria-modal="true"
+                aria-label="Video player"
+                onclick="handleBackdropClick(event)"
+                style="display:none; position:fixed; inset:0; background:rgba(0,0,0,0.82); z-index:9999; justify-content:center; align-items:center; opacity:0; transition:opacity 0.25s ease;">
+
+                <div id="modalBox"
+                    style="position:relative; width:90%; max-width:800px; transform:scale(0.95); transition:transform 0.25s ease;">
+
+                    <button onclick="closeVideoModal()"
+                            aria-label="Close video"
+                            style="position:absolute; top:-44px; right:0; background:none; border:none; color:#fff; font-size:15px; cursor:pointer; display:flex; align-items:center; gap:6px; opacity:0.85; padding:4px 8px;">
+                        <span style="font-size:26px; line-height:1;">&times;</span> Close
+                    </button>
+
+                    <iframe id="youtubeVideo"
+                            width="100%"
+                            height="450"
+                            src=""
+                            frameborder="0"
+                            allow="autoplay; encrypted-media; fullscreen"
+                            allowfullscreen
+                            title="YouTube video player"
+                            style="display:block; border-radius:8px;">
+                    </iframe>
+
+                </div>
+            </div>
+            <!-- ===== END VIDEO MODAL ===== -->
+
 
 <?php include "./components/footer.php"; ?>
+
+
+<script>
+    // Move modal directly onto <body> so position:fixed is never
+    // trapped inside a Swiper/transformed parent element
+    document.body.appendChild(document.getElementById("videoModal"));
+
+    const modal    = document.getElementById("videoModal");
+    const iframe   = document.getElementById("youtubeVideo");
+    const modalBox = document.getElementById("modalBox");
+    let previousFocus = null;
+
+    function openVideoModal(videoId) {
+        previousFocus       = document.activeElement;
+        iframe.src          = `https://www.youtube.com/embed/${videoId}?autoplay=1&rel=0`;
+        modal.style.display = "flex";
+        document.body.style.overflow = "hidden"; // ✅ prevent background scroll
+        requestAnimationFrame(() => {
+            modal.style.opacity      = "1";
+            modalBox.style.transform = "scale(1)";
+        });
+    }
+
+    function closeVideoModal() {
+        modal.style.opacity      = "0";
+        modalBox.style.transform = "scale(0.95)";
+        document.body.style.overflow = ""; // ✅ restore scroll
+        setTimeout(() => {
+            modal.style.display = "none";
+            iframe.src          = "";
+        }, 250);
+        if (previousFocus) previousFocus.focus();
+    }
+
+    function handleBackdropClick(e) {
+        if (e.target === modal) closeVideoModal();
+    }
+
+    document.addEventListener("keydown", function(e) {
+        if (e.key === "Escape" && modal.style.display === "flex") closeVideoModal();
+    });
+</script>

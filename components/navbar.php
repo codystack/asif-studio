@@ -40,7 +40,7 @@
                             <a href="https://yetundeasif.com/" target="_blank" class="text">
                                 Shop on Yétúndé Asif
                             </a>
-                            <a href="#" class="butn text-black bg-white hover-bg-orange1 hvr-txt-trans text-capitalize">
+                            <a href="booking" class="butn text-black bg-white hover-bg-orange1 hvr-txt-trans text-capitalize">
                                 <div class="txt" data-text="Book Now">
                                     <span>Book Now</span>
                                 </div>
