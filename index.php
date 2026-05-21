@@ -97,7 +97,7 @@ include "./components/navbar.php";
                                                 </text>
                                             </svg>
                                         </a>
-                                        <span class="icon"> <img src="assets/img/ab3-ico.png" alt=""> </span>
+                                        <span class="icon"> <img src="./assets/img/as-favicon-transparent.png" alt=""> </span>
                                     </div>
                                     <h2 class="fsz-100 text-lg-end mt-40 letters-line"> Fashion <br> Meets Creativity </h2>
                                     <div class="text fsz-16 cr-666 col-lg-5 mt-5 mt-lg-0"> Asif Studio is a modern creative space in Milton Keynes combining luxury tailoring with high-quality content production. From bespoke garments and alterations to professional photography, videography, and podcasts, we help individuals and brands bring their vision to life. </div>

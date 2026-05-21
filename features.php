@@ -1,74 +1,124 @@
+<?php
+include "./components/head.php";
+include "./components/navbar-alt.php";
+?>
+
+            <header class="tc-innerheader-st16">
+                <div class="container">
+                    <div class="bg-box pb-120">
+                        <div class="row align-items-center">
+                            <div class="col-lg-8 mx-auto">
+                                <h1 class="fsz-90 text-uppercase text-center"> Features </h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+
+            <main>
+
+                <!--  Start features  -->
+                <section class="tc-features-st10 section-padding">
+                    <div class="container">
+                        <div class="row justify-content-between align-items-center">
+                            <div class="col-lg-6">
+                                <div class="info wow fadeInUp" data-wow-delay="0.2s">
+                                    <h2 class="fsz-30 mb-30">Premium amenities. Timeless aesthetics. Endless creativity.</h2>
+                                    <div class="cont col-lg-10">
+                                        <p class="cr-666">Step into a thoughtfully curated studio designed to elevate every shoot, fitting, and creative session. At Asif Studio, every detail has been carefully selected to blend luxury, comfort, and functionality.</p>
+                                        <p class="mt-3">
+                                            Our space includes:
+                                            <ul style="list-style-type: disc; padding-left: 40px; margin: 0;" class="mt-2 mb-2 fsz-12">
+                                                <li style="margin-bottom: 10px;">⁠Iconic white bouclé 2-seater “bubble” sofa with a matching ottoman</li>
+                                                <li style="margin-bottom: 10px;">Elegant curved 2-seater velvet loveseat in soft grey</li>
+                                                <li style="margin-bottom: 10px;">Sculptural white bouclé “pumpkin” accent chair</li>
+                                                <li style="margin-bottom: 10px;">Mid-century dark wood and natural cane wicker chair</li>
+                                                <li style="margin-bottom: 10px;">Contemporary curved wooden bar island with a sleek countertop</li>
+                                                <li style="margin-bottom: 10px;">Two modern wooden bar stools with minimalist black frames</li>
+                                                <li style="margin-bottom: 10px;">Ceramic and wood-effect coffee table</li>
+                                                <li style="margin-bottom: 10px;">Gold multi-tiered display shelf for styled setups</li>
+                                                <li style="margin-bottom: 10px;">Curated collection of sculptural ceramic vases and artistic floral accents</li>
+                                                <li style="margin-bottom: 10px;">Beige rug with modern ceramic décor pieces</li>
+                                                <li style="margin-bottom: 10px;">Two elegant recessed wall arches with floor-to-ceiling satin drapes</li>
+                                                <li style="margin-bottom: 10px;">Minimalist corner with soft ivory cotton drapes</li>
+                                                <li style="margin-bottom: 10px;">Grey and beige paper backdrops for versatile concepts</li>
+                                                <li style="margin-bottom: 10px;">Large arched floor mirror and wall-mounted arch mirror for reflection shots</li>
+                                                <li style="margin-bottom: 10px;">Minimalist gold floor lamp with an arched neck and dome shade</li>
+                                                <li style="margin-bottom: 10px;">Textured white plaster-effect table lamp</li>
+                                                <li style="margin-bottom: 10px;">Statement crystal dandelion chandelier for a luxurious ambient glow</li>
+                                                <li style="margin-bottom: 10px;">Modern black adjustable track lighting for precise illumination</li>
+                                                <li>Warm and natural light aesthetic throughout the space</li>
+                                            </ul>
+                                        </p>
+                                    </div>
+                                    <div class="links">
+                                        <a href="booking" class="butn text-white bg-000 hover-bg-orange1 hvr-txt-trans text-capitalize mt-30 py-3">
+                                            <div class="txt" data-text="Book Now"><span> Book Now </span></div> <i class="fal fa-chevron-right ms-2"></i> 
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-5">
+                                <div class="img mb-5 mb-lg-0 wow zoomIn">
+                                    <img src="assets/img/OTG_8661.jpg" alt="" class="img-contain">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+                <section class="tc-features-st10 section-padding">
+                    <div class="container">
+                        <div class="row justify-content-between align-items-center">
+                            <div class="col-lg-5">
+                                <div class="img mb-5 mb-lg-0 wow zoomIn">
+                                    <img src="assets/img/OTG_8650.jpg" alt="" class="img-contain">
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="info wow fadeInUp" data-wow-delay="0.2s">
+                                    <div class="cont col-lg-10">
+                                        <p class="mt-3">
+                                            Photography Equipment Available
+                                            <ul style="list-style-type: disc; padding-left: 40px; margin: 0;" class="mt-2 mb-2">
+                                                <li style="margin-bottom: 10px;">AD600BM II studio flash</li>
+                                                <li style="margin-bottom: 10px;">130cm parabolic reflective umbrella (white interior)</li>
+                                                <li style="margin-bottom: 10px;">85cm and 65cm softboxes</li>
+                                                <li style="margin-bottom: 10px;">SL 90cm softbox</li>
+                                                <li style="margin-bottom: 10px;">Focus light and diffuser</li>
+                                                <li style="margin-bottom: 10px;">⁠Backdrop stand</li>
+                                                <li style="margin-bottom: 10px;">⁠Heavy-duty stands</li>
+                                                <li>Phone holders and light stands</li>
+                                            </ul>
+                                        </p>
+
+                                        <p class="mt-3">
+                                            Studio Facilities:
+                                            <ul style="list-style-type: disc; padding-left: 40px; margin: 0;" class="mt-2 mb-2">
+                                                <li style="margin-bottom: 10px;">Professional clothing rails for wardrobe management</li>
+                                                <li style="margin-bottom: 10px;"> ⁠Dedicated changing room for privacy and comfort</li>
+                                                <li style="margin-bottom: 10px;">Fully equipped kitchen and on-site restroom</li>
+                                                <li style="margin-bottom: 10px;">Complimentary on-site parking for all guests</li>
+                                                <li>Office space available for meetings or creative work (available for rent)</li>
+                                            </ul>
+                                        </p>
+                                    </div>
+                                    <div class="links">
+                                        <a href="booking" class="butn text-white bg-000 hover-bg-orange1 hvr-txt-trans text-capitalize mt-30 py-3">
+                                            <div class="txt" data-text="Book Now"><span> Book Now </span></div> <i class="fal fa-chevron-right ms-2"></i> 
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                
+                <?php include "./components/bookingcta.php"; ?>
+
+            </main>
+
+
 <?php include "./components/footer.php"; ?>
-
-<!-- ===== VIDEO MODAL ===== -->
-<div id="videoModal"
-     role="dialog"
-     aria-modal="true"
-     aria-label="Video player"
-     onclick="handleBackdropClick(event)"
-     style="display:none; position:fixed; inset:0; background:rgba(0,0,0,0.82); z-index:99999; justify-content:center; align-items:center; opacity:0; transition:opacity 0.25s ease;">
-
-    <div id="modalBox"
-         style="position:relative; width:90%; max-width:800px; transform:scale(0.95); transition:transform 0.25s ease;">
-
-        <button onclick="closeVideoModal()"
-                aria-label="Close video"
-                style="position:absolute; top:-44px; right:0; background:none; border:none; color:#fff; font-size:15px; cursor:pointer; display:flex; align-items:center; gap:6px; opacity:0.85; padding:4px 8px;">
-            <span style="font-size:26px; line-height:1;">&times;</span> Close
-        </button>
-
-        <iframe id="youtubeVideo"
-                width="100%"
-                height="450"
-                src=""
-                frameborder="0"
-                allow="autoplay; encrypted-media; fullscreen"
-                allowfullscreen
-                title="YouTube video player"
-                style="display:block; border-radius:8px;">
-        </iframe>
-
-    </div>
-</div>
-<!-- ===== END VIDEO MODAL ===== -->
-
-<script>
-    // ✅ Move modal directly onto <body> so position:fixed is never
-    // trapped inside a Swiper/transformed parent element
-    document.body.appendChild(document.getElementById("videoModal"));
-
-    const modal    = document.getElementById("videoModal");
-    const iframe   = document.getElementById("youtubeVideo");
-    const modalBox = document.getElementById("modalBox");
-    let previousFocus = null;
-
-    function openVideoModal(videoId) {
-        previousFocus       = document.activeElement;
-        iframe.src          = `https://www.youtube.com/embed/${videoId}?autoplay=1&rel=0`;
-        modal.style.display = "flex";
-        document.body.style.overflow = "hidden"; // ✅ prevent background scroll
-        requestAnimationFrame(() => {
-            modal.style.opacity      = "1";
-            modalBox.style.transform = "scale(1)";
-        });
-    }
-
-    function closeVideoModal() {
-        modal.style.opacity      = "0";
-        modalBox.style.transform = "scale(0.95)";
-        document.body.style.overflow = ""; // ✅ restore scroll
-        setTimeout(() => {
-            modal.style.display = "none";
-            iframe.src          = "";
-        }, 250);
-        if (previousFocus) previousFocus.focus();
-    }
-
-    function handleBackdropClick(e) {
-        if (e.target === modal) closeVideoModal();
-    }
-
-    document.addEventListener("keydown", function(e) {
-        if (e.key === "Escape" && modal.style.display === "flex") closeVideoModal();
-    });
-</script>

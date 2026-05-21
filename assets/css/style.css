@@ -3296,7 +3296,7 @@ input:focus {
 }
 .tc-navbar-st1 .navbar-nav .nav-item .nav-link {
   position: relative;
-  font-size: 16px;
+  font-size: 14px;
   -webkit-margin-end: 30px;
           margin-inline-end: 30px;
 }
