@@ -22,12 +22,7 @@ include "./components/navbar.php";
                                             class="butn border border-white text-white hover-bg-brown1 hvr-txt-trans text-capitalize px-lg-5">
                                                 <div class="txt" data-text="Book Now"><span>Book Now</span></div>
                                             </a>
-                                            <button onclick="openVideoModal('FmguG5m7LKM')"
-                                                    aria-label="Play video"
-                                                    class="icon-50 bg-white rounded-circle cr-000 dnf-center ms-4 hover-bg-brown1"
-                                                    style="border:none; cursor:pointer;">
-                                                <i class="fas fa-play"></i>
-                                            </button>
+                                            <a href="https://www.youtube.com/watch?v=FmguG5m7LKM" class="icon-50 bg-white rounded-circle cr-000 dnf-center ms-4 hover-bg-brown1" data-lity="video"> <i class="fas fa-play"></i> </a>
                                         </div>
                                     </div>
                                 </div>
@@ -50,12 +45,7 @@ include "./components/navbar.php";
                                             class="butn border border-white text-white hover-bg-brown1 hvr-txt-trans text-capitalize px-lg-5">
                                                 <div class="txt" data-text="Book Now"><span>Book Now</span></div>
                                             </a>
-                                            <button onclick="openVideoModal('cy-p5gC0gPc')"
-                                                    aria-label="Play video"
-                                                    class="icon-50 bg-white rounded-circle cr-000 dnf-center ms-4 hover-bg-brown1"
-                                                    style="border:none; cursor:pointer;">
-                                                <i class="fas fa-play"></i>
-                                            </button>
+                                            <a href="https://www.youtube.com/watch?v=cy-p5gC0gPc" class="icon-50 bg-white rounded-circle cr-000 dnf-center ms-4 hover-bg-brown1" data-lity="video"> <i class="fas fa-play"></i> </a>
                                         </div>
                                     </div>
                                 </div>
@@ -183,7 +173,6 @@ include "./components/navbar.php";
                     </div>
                 </section>
 
-                <!--  Start portfolio  -->
                 <section class="tc-portfolio-st7 section-padding bg-light3">
                     <div class="container">
                         <div class="title-wrapper">
@@ -242,144 +231,10 @@ include "./components/navbar.php";
                     </div>
                     <img src="assets/img/port7-bg.png" alt="" class="shap">
                 </section>
-                <!--  End portfolio  -->
-
-                <!--  Start testimonials  -->
-                <!-- <section class="tc-testimonials-st7 section-padding">
-                    <div class="container">
-                        <div class="title-wrapper text-center mb-60">
-                            <div class="sub-title fsz-16 text-uppercase cr-brown1"> Testimonials </div>
-                            <h2 class="fsz-50 mt-15 letters-line"> Client Says? </h2>
-                        </div>
-                        <div class="testi-slider position-relative overflow-hidden pb-80 wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <div class="testi-card-st7 p-5 bg-light3">
-                                        <h6 class="fsz-21"> Kai Alexander </h6>
-                                        <div class="stars fsz-12 mt-10 text-warning">
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                        </div>
-                                        <div class="text fsz-16 cr-888 mt-20 text-pretty"> Phrases like We need results fast isn't aligned guide service adjustments Positive feedback builds feedback drives improvement.  </div>
-                                        <img src="assets/img/brands/11.svg" alt="" class="brand th-20 mt-30">
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="testi-card-st7 p-5 bg-light3">
-                                        <h6 class="fsz-21"> Nora Quinn </h6>
-                                        <div class="stars fsz-12 mt-10 text-warning">
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                        </div>
-                                        <div class="text fsz-16 cr-888 mt-20 text-pretty"> Phrases like We need results fast isn't aligned guide service adjustments Positive feedback builds feedback drives improvement.  </div>
-                                        <img src="assets/img/brands/12.svg" alt="" class="brand th-20 mt-30">
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="testi-card-st7 p-5 bg-light3">
-                                        <h6 class="fsz-21"> Finn Thomas </h6>
-                                        <div class="stars fsz-12 mt-10 text-warning">
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                        </div>
-                                        <div class="text fsz-16 cr-888 mt-20 text-pretty"> Phrases like We need results fast isn't aligned guide service adjustments Positive feedback builds feedback drives improvement.  </div>
-                                        <img src="assets/img/brands/13.svg" alt="" class="brand th-20 mt-30">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-pagination swiper-pagination-st1"></div>
-                        </div>
-                    </div>
-                </section> -->
-                <!--  End testimonials  -->
-
                 
                 <?php include "./components/bookingcta.php"; ?>
 
             </main>
 
-            <!-- ===== VIDEO MODAL (outside <main>, before </body>) ===== -->
-            <div id="videoModal"
-                role="dialog"
-                aria-modal="true"
-                aria-label="Video player"
-                onclick="handleBackdropClick(event)"
-                style="display:none; position:fixed; inset:0; background:rgba(0,0,0,0.82); z-index:9999; justify-content:center; align-items:center; opacity:0; transition:opacity 0.25s ease;">
-
-                <div id="modalBox"
-                    style="position:relative; width:90%; max-width:800px; transform:scale(0.95); transition:transform 0.25s ease;">
-
-                    <button onclick="closeVideoModal()"
-                            aria-label="Close video"
-                            style="position:absolute; top:-44px; right:0; background:none; border:none; color:#fff; font-size:15px; cursor:pointer; display:flex; align-items:center; gap:6px; opacity:0.85; padding:4px 8px;">
-                        <span style="font-size:26px; line-height:1;">&times;</span> Close
-                    </button>
-
-                    <iframe id="youtubeVideo"
-                            width="100%"
-                            height="450"
-                            src=""
-                            frameborder="0"
-                            allow="autoplay; encrypted-media; fullscreen"
-                            allowfullscreen
-                            title="YouTube video player"
-                            style="display:block; border-radius:8px;">
-                    </iframe>
-
-                </div>
-            </div>
-            <!-- ===== END VIDEO MODAL ===== -->
-
 
 <?php include "./components/footer.php"; ?>
-
-
-<script>
-    // Move modal directly onto <body> so position:fixed is never
-    // trapped inside a Swiper/transformed parent element
-    document.body.appendChild(document.getElementById("videoModal"));
-
-    const modal    = document.getElementById("videoModal");
-    const iframe   = document.getElementById("youtubeVideo");
-    const modalBox = document.getElementById("modalBox");
-    let previousFocus = null;
-
-    function openVideoModal(videoId) {
-        previousFocus       = document.activeElement;
-        iframe.src          = `https://www.youtube.com/embed/${videoId}?autoplay=1&rel=0`;
-        modal.style.display = "flex";
-        document.body.style.overflow = "hidden"; // ✅ prevent background scroll
-        requestAnimationFrame(() => {
-            modal.style.opacity      = "1";
-            modalBox.style.transform = "scale(1)";
-        });
-    }
-
-    function closeVideoModal() {
-        modal.style.opacity      = "0";
-        modalBox.style.transform = "scale(0.95)";
-        document.body.style.overflow = ""; // ✅ restore scroll
-        setTimeout(() => {
-            modal.style.display = "none";
-            iframe.src          = "";
-        }, 250);
-        if (previousFocus) previousFocus.focus();
-    }
-
-    function handleBackdropClick(e) {
-        if (e.target === modal) closeVideoModal();
-    }
-
-    document.addEventListener("keydown", function(e) {
-        if (e.key === "Escape" && modal.style.display === "flex") closeVideoModal();
-    });
-</script>

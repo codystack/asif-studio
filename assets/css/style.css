@@ -5005,7 +5005,7 @@ input:focus {
   display: block;
   padding: 50px;
   border-radius: 10px;
-  border: 1px solid #fff2;
+  border: 1px solid #000000;
   height: 100%;
 }
 .tc-service-st3 .arrow {
@@ -5023,7 +5023,7 @@ input:focus {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border: 1px solid #fff5;
+  border: 1px solid #000000;
   opacity: 0.3;
 }
 .tc-service-st3:hover {
