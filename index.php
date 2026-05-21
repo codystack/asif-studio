@@ -99,7 +99,7 @@ include "./components/navbar.php";
                                         </a>
                                         <span class="icon"> <img src="./assets/img/as-favicon-transparent.png" alt=""> </span>
                                     </div>
-                                    <h2 class="fsz-100 text-lg-end mt-40 letters-line"> Fashion <br> Meets Creativity </h2>
+                                    <h2 class="fsz-100 text-lg-end mt-40 letters-line">Elevated Studio Experience</h2>
                                     <div class="text fsz-16 cr-666 col-lg-5 mt-5 mt-lg-0"> Asif Studio is a modern creative space in Milton Keynes combining luxury tailoring with high-quality content production. From bespoke garments and alterations to professional photography, videography, and podcasts, we help individuals and brands bring their vision to life. </div>
                                 </div>
                             </div>
@@ -110,43 +110,84 @@ include "./components/navbar.php";
                 <!--  End about  -->
 
 
-                <!--  Start features  -->
-                <section class="tc-features-st7">
+                <section class="tc-portfolio-st9 overflow-hidden pb-120 border-bottom border-wh-1">
                     <div class="container">
-                        <div class="cards">
-                            <div class="row">
-                                <div class="col-lg-6">
-                                    <div class="feature-card-st7 wow clippy-img">
-                                        <div class="img">
-                                            <img src="assets/img/OTG_8666.jpg" alt="" class="img-cover">
-                                        </div>
-                                        <div class="info">
-                                            <h2 class="fsz-55"> The Content<br>Studio </h2>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="feature-card-st7 wow clippy-img">
-                                        <div class="img">
-                                            <img src="assets/img/Sewing_8666.jpg" alt="" class="img-cover">
-                                        </div>
-                                        <div class="info">
-                                            <h2 class="fsz-55"> The Creative<br>Studio </h2>
-                                        </div>
-                                    </div>
+                        <div class="title-wrapper mb-60">
+                            <div class="row align-items-center justify-content-between">
+                                <div class="col-lg-8 mx-auto">
+                                    <h2 class="fsz-70 text-lg-center my-4 my-lg-0 letters-line"> Create. Shoot. Inspire. </h2>
                                 </div>
                             </div>
                         </div>
+                        <div class="portfolio-slider position-relative pb-80">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <a href="#" class="portfolio-card-st9 d-block hover-green1">
+                                        <div class="img th-500">
+                                            <img src="assets/img/OTG_8542.jpg" alt="" class="img-cover">
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#" class="portfolio-card-st9 d-block hover-green1">
+                                        <div class="img th-500">
+                                            <img src="assets/img/OTG_8617.jpg" alt="" class="img-cover">
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#" class="portfolio-card-st9 d-block hover-green1">
+                                        <div class="img th-500">
+                                            <img src="assets/img/OTG_8641.jpg" alt="" class="img-cover">
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#" class="portfolio-card-st9 d-block hover-green1">
+                                        <div class="img th-500">
+                                            <img src="assets/img/OTG_8676.jpg" alt="" class="img-cover">
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#" class="portfolio-card-st9 d-block hover-green1">
+                                        <div class="img th-500">
+                                            <img src="assets/img/OTG_8659.jpg" alt="" class="img-cover">
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#" class="portfolio-card-st9 d-block hover-green1">
+                                        <div class="img th-500">
+                                            <img src="assets/img/OTG_8767.jpg" alt="" class="img-cover">
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#" class="portfolio-card-st9 d-block hover-green1">
+                                        <div class="img th-500">
+                                            <img src="assets/img/OTG_8802.jpg" alt="" class="img-cover">
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#" class="portfolio-card-st9 d-block hover-green1">
+                                        <div class="img th-500">
+                                            <img src="assets/img/OTG_8772.jpg" alt="" class="img-cover">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-pagination swiper-pagination-st1 pagination-green1"></div>
+                        </div>
                     </div>
                 </section>
-                <!--  End features  -->
-
 
                 <!--  Start portfolio  -->
-                <section class="tc-portfolio-st7 section-padding mt-120 bg-light3">
+                <section class="tc-portfolio-st7 section-padding bg-light3">
                     <div class="container">
                         <div class="title-wrapper">
-                            <h2 class="fsz-100 letters-line"> Your Creative <span class="d-block offset-lg-3"> Space Awaits </span> </h2>
+                            <h2 class="fsz-100 letters-line"> Space Designed <span class="d-block offset-lg-3"> For Creators </span> </h2>
                             <div class="cont col-lg-4 offset-lg-4">
                                 <div class="text fsz-16 cr-666 mt-30"> From content shoots to podcasts and fashion productions, our studio is designed for creators and brands. </div>
                             </div>
@@ -179,7 +220,7 @@ include "./components/navbar.php";
                                 <div class="row justify-content-between">
                                     <div class="col-lg-5">
                                         <div class="img th-525 parallaxed">
-                                            <img src="assets/img/creativeStudio.jpg6" alt="" class="img-cover">
+                                            <img src="assets/img/creativeStudio.jpg" alt="" class="img-cover">
                                         </div>
                                     </div>
                                     <div class="col-lg-5">
