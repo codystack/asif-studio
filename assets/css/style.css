@@ -5024,7 +5024,7 @@ input:focus {
       -ms-flex-align: center;
           align-items: center;
   border: 1px solid #000000;
-  opacity: 0.3;
+  /* opacity: 0.3; */
 }
 .tc-service-st3:hover {
   border-color: var(--cr-gold1);
