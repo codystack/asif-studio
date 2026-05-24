@@ -255,7 +255,7 @@ include "./components/navbar-alt.php";
                     <div>✓ Complimentary tea &amp; coffee</div>
                     <div>✓ Kitchen access</div>
                     <div>✓ Toilet facilities</div>
-                    <div>✓Natural light + studio lighting</div>
+                    <div>✓ Natural light + studio lighting</div>
                 </div>
             </div>
         </div>
