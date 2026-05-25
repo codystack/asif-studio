@@ -126,13 +126,13 @@ include "./components/navbar-alt.php";
         <div>
             <p style="font-size:11px;font-weight:600;letter-spacing:.08em;color:#888;margin:0 0 10px;text-transform:uppercase;">Select duration</p>
             <div style="display:flex;flex-direction:column;gap:6px;">
-                <a href="weekend-studio?hours=2" class="butn border border-000 text-dark text-capitalize px-lg-5 mb-2">2 hours <span>£70</span></a>
-                <a href="weekend-studio?hours=3" class="butn border border-000 text-dark text-capitalize px-lg-5 mb-2">3 hours <span>£105</span></a>
-                <a href="weekend-studio?hours=4" class="butn border border-000 text-dark text-capitalize px-lg-5 mb-2">4 hours <span>£140</span></a>
-                <a href="weekend-studio?hours=5" class="butn border border-000 text-dark text-capitalize px-lg-5 mb-2">5 hours <span>£175</span></a>
-                <a href="weekend-studio?hours=6" class="butn border border-000 text-dark text-capitalize px-lg-5 mb-2">6 hours <span>£210</span></a>
-                <a href="weekend-studio?hours=7" class="butn border border-000 text-dark text-capitalize px-lg-5 mb-2">7 hours <span>£245</span></a>
-                <a href="weekend-studio?hours=8" class="butn border border-000 text-dark text-capitalize px-lg-5 mb-2">8 hours <span>£280</span></a>
+                <a href="https://calendly.com/yetundeasif/weekend-studio-2hrs" target="_blank" class="butn border border-000 text-dark text-capitalize px-lg-5 mb-2">2 hours <span>£70</span></a>
+                <a href="https://calendly.com/yetundeasif/weekend-studio-3hrs" target="_blank" class="butn border border-000 text-dark text-capitalize px-lg-5 mb-2">3 hours <span>£105</span></a>
+                <a href="https://calendly.com/yetundeasif/weekend-studio-4hrs" target="_blank" class="butn border border-000 text-dark text-capitalize px-lg-5 mb-2">4 hours <span>£140</span></a>
+                <a href="https://calendly.com/yetundeasif/weekend-studio-5hrs" target="_blank" class="butn border border-000 text-dark text-capitalize px-lg-5 mb-2">5 hours <span>£175</span></a>
+                <a href="https://calendly.com/yetundeasif/weekend-studio-6hrs" target="_blank" class="butn border border-000 text-dark text-capitalize px-lg-5 mb-2">6 hours <span>£210</span></a>
+                <a href="https://calendly.com/yetundeasif/weekend-studio-7hrs" target="_blank" class="butn border border-000 text-dark text-capitalize px-lg-5 mb-2">7 hours <span>£245</span></a>
+                <a href="https://calendly.com/yetundeasif/weekend-studio-8hrs" target="_blank" class="butn border border-000 text-dark text-capitalize px-lg-5 mb-2">8 hours <span>£280</span></a>
             </div>
         </div>
         <div style="display:flex;flex-direction:column;justify-content:space-between;">
