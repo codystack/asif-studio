@@ -241,11 +241,11 @@ include "./components/navbar-alt.php";
         <div>
             <p style="font-size:11px;font-weight:600;letter-spacing:.08em;color:#888;margin:0 0 10px;text-transform:uppercase;">Select duration</p>
             <div style="display:flex;flex-direction:column;gap:6px;">
-                <a href="contact?enquiry=event-space&hours=3" class="butn border border-000 text-dark text-capitalize px-lg-5 mb-2">3 hours <span>£100</span></a>
-                <a href="contact?enquiry=event-space&hours=4" class="butn border border-000 text-dark text-capitalize px-lg-5 mb-2">4 hours <span>£140</span></a>
-                <a href="contact?enquiry=event-space&hours=5" class="butn border border-000 text-dark text-capitalize px-lg-5 mb-2">5 hours <span>£180</span></a>
-                <a href="contact?enquiry=event-space&hours=6" class="butn border border-000 text-dark text-capitalize px-lg-5 mb-2">6 hours <span>£220</span></a>
-                <a href="contact?enquiry=event-space&hours=8" class="butn border border-000 text-dark text-capitalize px-lg-5 mb-2">8 hours <span>£280</span></a>
+                <a href="https://calendly.com/yetundeasif/event-space-3hrs" target="_blank" class="butn border border-000 text-dark text-capitalize px-lg-5 mb-2">3 hours <span>£100</span></a>
+                <a href="https://calendly.com/yetundeasif/event-space-3hrs" target="_blank" class="butn border border-000 text-dark text-capitalize px-lg-5 mb-2">4 hours <span>£140</span></a>
+                <a href="https://calendly.com/yetundeasif/event-space-3hrs" target="_blank" class="butn border border-000 text-dark text-capitalize px-lg-5 mb-2">5 hours <span>£180</span></a>
+                <a href="https://calendly.com/yetundeasif/event-space-3hrs" target="_blank" class="butn border border-000 text-dark text-capitalize px-lg-5 mb-2">6 hours <span>£220</span></a>
+                <a href="https://calendly.com/yetundeasif/event-space-3hrs" target="_blank" class="butn border border-000 text-dark text-capitalize px-lg-5 mb-2">8 hours <span>£280</span></a>
             </div>
         </div>
         <div style="display:flex;flex-direction:column;justify-content:space-between;">
@@ -257,6 +257,9 @@ include "./components/navbar-alt.php";
                     <div>✓ Kitchen access</div>
                     <div>✓ Toilet facilities</div>
                     <div>✓ Natural light + studio lighting</div>
+                    <div>✓ Upto 8 guests</div>
+                    <div>✓ Additional guests are charged at £10 per person</div>
+                    <div>✓ Maximum capacity: upto 25 guests depending on setup.</div>
                 </div>
             </div>
         </div>
