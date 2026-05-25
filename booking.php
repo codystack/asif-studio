@@ -17,7 +17,7 @@ include "./components/navbar-alt.php";
 
 <section class="tc-services-st3 pb-80">
     <div class="container">
-        <div class="section-title text-center col-lg-7 mx-auto mb-70 js-splittext-lines wow fadeInUp" data-wow-delay="0.1s">
+        <div class="section-title text-center col-lg-7 mx-auto mb-70 wow fadeInUp" data-wow-delay="0.1s">
             <h2 class="fsz-50"> Flexible Booking Options For Every Creative Need </h2>
         </div>
         <div class="row wow fadeInUp" data-wow-delay="0.1s">
@@ -202,11 +202,11 @@ include "./components/navbar-alt.php";
         <div>
             <p style="font-size:11px;font-weight:600;letter-spacing:.08em;color:#888;margin:0 0 10px;text-transform:uppercase;">Select duration</p>
             <div style="display:flex;flex-direction:column;gap:6px;">
-                <a href="sewing-machine?hours=2" class="butn border border-000 text-dark text-capitalize px-lg-5 mb-2">2 hours <span>£40</span></a>
-                <a href="sewing-machine?hours=3" class="butn border border-000 text-dark text-capitalize px-lg-5 mb-2">3 hours <span>£60</span></a>
-                <a href="sewing-machine?hours=4" class="butn border border-000 text-dark text-capitalize px-lg-5 mb-2">4 hours <span>£70</span></a>
-                <a href="sewing-machine?hours=5" class="butn border border-000 text-dark text-capitalize px-lg-5 mb-2">5 hours <span>£85</span></a>
-                <a href="sewing-machine?hours=6" class="butn border border-000 text-dark text-capitalize px-lg-5 mb-2">6 hours <span>£100</span></a>
+                <a href="https://calendly.com/yetundeasif/sewing-machine-area-2hrs" target="_blank" class="butn border border-000 text-dark text-capitalize px-lg-5 mb-2">2 hours <span>£40</span></a>
+                <a href="https://calendly.com/yetundeasif/sewing-machine-area-3hrs" target="_blank" class="butn border border-000 text-dark text-capitalize px-lg-5 mb-2">3 hours <span>£60</span></a>
+                <a href="https://calendly.com/yetundeasif/sewing-machine-area-4hrs" target="_blank" class="butn border border-000 text-dark text-capitalize px-lg-5 mb-2">4 hours <span>£70</span></a>
+                <a href="https://calendly.com/yetundeasif/sewing-machine-area-5hrs" target="_blank" class="butn border border-000 text-dark text-capitalize px-lg-5 mb-2">5 hours <span>£85</span></a>
+                <a href="https://calendly.com/yetundeasif/sewing-machine-area-6hrs" target="_blank" class="butn border border-000 text-dark text-capitalize px-lg-5 mb-2">6 hours <span>£100</span></a>
             </div>
         </div>
         <div style="display:flex;flex-direction:column;justify-content:space-between;">
