@@ -42,7 +42,7 @@ include "./components/navbar-alt.php";
             <div class="col-12 col-xl-4 col-md-6 mb-4">
                 <a onclick="openModal('contentRoomModal')" class="tc-service-st3" style="cursor:pointer;">
                     <h5 class="fsz-30 mb-20">Podcast/Content Room <span class="small text-danger">Weekends Only</span></h5>
-                    <div class="text fsz-16 op-7">£25 – £30 Per Hour</div>
+                    <div class="text fsz-16 op-7">£35 Per Hour</div>
                     <span class="arrow"><i class="fal fa-chevron-right"></i></span>
                 </a>
             </div>
@@ -159,7 +159,7 @@ include "./components/navbar-alt.php";
           <p style="font-size:13px;color:#888;margin:0;">Sat &amp; Sun · ⚠ Microphones not provided</p>
         </div>
         <div style="text-align:right;flex-shrink:0;">
-          <span style="font-size:22px;font-weight:700;">£25–£30</span>
+          <span style="font-size:22px;font-weight:700;">£35</span>
           <span style="font-size:13px;color:#888;"> / hr</span>
         </div>
       </div>
@@ -167,9 +167,9 @@ include "./components/navbar-alt.php";
         <div>
             <p style="font-size:11px;font-weight:600;letter-spacing:.08em;color:#888;margin:0 0 10px;text-transform:uppercase;">Select duration</p>
             <div style="display:flex;flex-direction:column;gap:6px;">
-                <a href="content-room?hours=2" class="butn border border-000 text-dark text-capitalize px-lg-5 mb-2">2 hours <span>£50–£55</span></a>
-                <a href="content-room?hours=3" class="butn border border-000 text-dark text-capitalize px-lg-5 mb-2">3 hours <span>£75–£80</span></a>
-                <a href="content-room?hours=4" class="butn border border-000 text-dark text-capitalize px-lg-5 mb-2">4 hours <span>£95–£100</span></a>
+                <a href="https://calendly.com/yetundeasif/content-room-2hrs" target="_blank" class="butn border border-000 text-dark text-capitalize px-lg-5 mb-2">2 hours <span>£70</span></a>
+                <a href="https://calendly.com/yetundeasif/content-room-3hrs" target="_blank" class="butn border border-000 text-dark text-capitalize px-lg-5 mb-2">3 hours <span>£105</span></a>
+                <a href="https://calendly.com/yetundeasif/content-room-4hrs" target="_blank" class="butn border border-000 text-dark text-capitalize px-lg-5 mb-2">4 hours <span>£140</span></a>
             </div>
         </div>
         <div style="display:flex;flex-direction:column;justify-content:space-between;">
