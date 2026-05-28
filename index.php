@@ -15,14 +15,15 @@ include "./components/navbar.php";
                                     <div class="info col-lg-8 text-white">
                                         <h1 class="split-text">Crafted To Fit Your Identity</h1>
                                         <div class="text fsz-20 mt-30">
-                                            Asif Studio is a premium creative space designed to inspire expressiom, storytelling, and high-quality content creation.
+                                            Asif Studio is a premium creative space designed to inspire expression, storytelling, and high-quality content creation.
                                         </div>
                                         <div class="btns mt-5 d-flex">
-                                            <a href="booking"
-                                            class="butn border border-white text-white hover-bg-brown1 hvr-txt-trans text-capitalize px-lg-5">
+                                            <a href="booking" class="butn border border-white text-white hover-bg-brown1 hvr-txt-trans text-capitalize px-lg-5">
                                                 <div class="txt" data-text="Book Now"><span>Book Now</span></div>
                                             </a>
-                                            <a href="https://www.youtube.com/watch?v=FmguG5m7LKM" class="icon-50 bg-white rounded-circle cr-000 dnf-center ms-4 hover-bg-brown1" data-lity="video"> <i class="fas fa-play"></i> </a>
+                                            <a href="#" onclick="openVideoModal('./assets/img/Asif-Studio.mp4'); return false;" class="icon-50 bg-white rounded-circle cr-000 dnf-center ms-4 hover-bg-brown1">
+                                                <i class="fas fa-play"></i>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
@@ -41,11 +42,12 @@ include "./components/navbar.php";
                                             Our studio is open to all brands, creatives, photographers, videographers, and individuals, seeking a refined versatile environment to bring their ideas to life.
                                         </div>
                                         <div class="btns mt-5 d-flex">
-                                            <a href="booking"
-                                            class="butn border border-white text-white hover-bg-brown1 hvr-txt-trans text-capitalize px-lg-5">
+                                            <a href="booking" class="butn border border-white text-white hover-bg-brown1 hvr-txt-trans text-capitalize px-lg-5">
                                                 <div class="txt" data-text="Book Now"><span>Book Now</span></div>
                                             </a>
-                                            <a href="https://www.youtube.com/watch?v=cy-p5gC0gPc" class="icon-50 bg-white rounded-circle cr-000 dnf-center ms-4 hover-bg-brown1" data-lity="video"> <i class="fas fa-play"></i> </a>
+                                            <a href="#" onclick="openVideoModal('./assets/img/Asif-Studioo.mp4'); return false;" class="icon-50 bg-white rounded-circle cr-000 dnf-center ms-4 hover-bg-brown1">
+                                                <i class="fas fa-play"></i>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
@@ -238,3 +240,89 @@ include "./components/navbar.php";
 
 
 <?php include "./components/footer.php"; ?>
+
+
+<script>
+    (function () {
+        var overlay = document.createElement('div');
+        Object.assign(overlay.style, {
+            display:        'none',
+            position:       'fixed',
+            top:            '0',
+            left:           '0',
+            width:          '100%',
+            height:         '100%',
+            background:     'rgba(0,0,0,0.92)',
+            zIndex:         '999999',
+            alignItems:     'center',
+            justifyContent: 'center',
+            padding:        '1rem',
+            boxSizing:      'border-box'
+        });
+
+        overlay.addEventListener('click', closeVideoModal);
+
+        var wrapper = document.createElement('div');
+        Object.assign(wrapper.style, {
+            position:  'relative',
+            width:     '100%',
+            maxWidth:  '900px',
+            boxSizing: 'border-box'
+        });
+        wrapper.addEventListener('click', function (e) { e.stopPropagation(); });
+
+        var closeBtn = document.createElement('button');
+        closeBtn.innerHTML = '&times;';
+        Object.assign(closeBtn.style, {
+            position:   'absolute',
+            top:        '-2.5rem',
+            right:      '0',
+            background: 'none',
+            border:     'none',
+            color:      '#fff',
+            fontSize:   '2rem',
+            cursor:     'pointer',
+            lineHeight: '1',
+            padding:    '0'
+        });
+        closeBtn.addEventListener('click', closeVideoModal);
+
+        var video = document.createElement('video');
+        Object.assign(video.style, {
+            width:        '100%',
+            display:      'block',
+            borderRadius: '8px',
+            maxHeight:    '80vh'
+        });
+        video.controls    = true;
+        video.playsinline = true;
+        video.setAttribute('preload', 'metadata');
+
+        wrapper.appendChild(closeBtn);
+        wrapper.appendChild(video);
+        overlay.appendChild(wrapper);
+        document.body.appendChild(overlay);
+
+        window._videoOverlay = overlay;
+        window._videoEl      = video;
+    })();
+
+    function openVideoModal(src) {
+        window._videoEl.src             = src;
+        window._videoOverlay.style.display = 'flex';
+        document.documentElement.style.overflow = 'hidden';
+        window._videoEl.play();
+    }
+
+    function closeVideoModal() {
+        window._videoOverlay.style.display = 'none';
+        document.documentElement.style.overflow = '';
+        window._videoEl.pause();
+        window._videoEl.currentTime = 0;
+        window._videoEl.src         = '';
+    }
+
+    document.addEventListener('keydown', function (e) {
+        if (e.key === 'Escape') closeVideoModal();
+    });
+</script>
