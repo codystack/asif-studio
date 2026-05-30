@@ -346,6 +346,12 @@ include "./components/navbar-alt.php";
                     </span>
                     No stains, spillages, or damage to furniture or flooring
                 </li>
+                <li style="display:flex;align-items:flex-start;gap:8px;font-size:0.875rem;color:#444;">
+                    <span style="flex-shrink:0;width:18px;height:18px;background:#fb1100;border-radius:50%;display:flex;align-items:center;justify-content:center;margin-top:2px;">
+                        <svg width="10" height="10" viewBox="0 0 12 12" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="2,6 5,9 10,3"/></svg>
+                    </span>
+                    No roll-over of unsed hours to future dates or bookings.
+                </li>
             </ul>
             <p style="font-size:0.875rem;color:#555;line-height:1.7;margin:0;">
                 We appreciate your cooperation in helping us keep the studio pristine for every client.

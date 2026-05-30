@@ -2,6 +2,15 @@
 include "./components/head.php";
 include "./components/navbar-alt.php";
 ?>
+<style>
+    .img-nav-btn  { display: none; }
+    .img-close-btn { display: none; }
+
+    @media (min-width: 992px) {
+        .img-nav-btn   { display: block !important; }
+        .img-close-btn { display: block !important; }
+    }
+</style>
 
 <header class="tc-innerheader-st16">
     <div class="container">
@@ -186,8 +195,10 @@ include "./components/navbar-alt.php";
         });
         img.addEventListener('click', function (e) { e.stopPropagation(); });
 
+        /* Close button — desktop only */
         var closeBtn = document.createElement('button');
         closeBtn.innerHTML = '&times;';
+        closeBtn.className = 'img-close-btn';
         Object.assign(closeBtn.style, {
             position:   'fixed',
             top:        '1.25rem',
@@ -203,8 +214,10 @@ include "./components/navbar-alt.php";
         });
         closeBtn.addEventListener('click', closeImageModal);
 
+        /* Prev button — desktop only */
         var prevBtn = document.createElement('button');
         prevBtn.innerHTML = '&#8249;';
+        prevBtn.className = 'img-nav-btn';
         Object.assign(prevBtn.style, {
             position:     'fixed',
             left:         '1rem',
@@ -222,8 +235,10 @@ include "./components/navbar-alt.php";
             zIndex:       '1000000'
         });
 
+        /* Next button — desktop only */
         var nextBtn = document.createElement('button');
         nextBtn.innerHTML = '&#8250;';
+        nextBtn.className = 'img-nav-btn';
         Object.assign(nextBtn.style, {
             position:     'fixed',
             right:        '1rem',
@@ -253,8 +268,6 @@ include "./components/navbar-alt.php";
         function show(index) {
             current = index;
             img.src = images[current];
-            prevBtn.style.display = images.length > 1 ? 'block' : 'none';
-            nextBtn.style.display = images.length > 1 ? 'block' : 'none';
         }
 
         prevBtn.addEventListener('click', function (e) {
@@ -266,6 +279,18 @@ include "./components/navbar-alt.php";
             e.stopPropagation();
             show((current + 1) % images.length);
         });
+
+        /* Touch swipe for mobile */
+        var touchStartX = 0;
+        overlay.addEventListener('touchstart', function (e) {
+            touchStartX = e.changedTouches[0].clientX;
+        }, { passive: true });
+        overlay.addEventListener('touchend', function (e) {
+            var diff = touchStartX - e.changedTouches[0].clientX;
+            if (Math.abs(diff) < 40) return;
+            if (diff > 0) show((current + 1) % images.length);
+            else          show((current - 1 + images.length) % images.length);
+        }, { passive: true });
 
         document.addEventListener('keydown', function (e) {
             if (overlay.style.display === 'none') return;
@@ -294,15 +319,11 @@ include "./components/navbar-alt.php";
         var idx = _collageImages.indexOf(src);
         window._setImages(_collageImages, idx === -1 ? 0 : idx);
         window._imgOverlay.style.display = 'flex';
-        window._imgClose.style.display   = 'block';
         document.documentElement.style.overflow = 'hidden';
     }
 
     function closeImageModal() {
         window._imgOverlay.style.display = 'none';
-        window._imgClose.style.display   = 'none';
-        window._imgPrev.style.display    = 'none';
-        window._imgNext.style.display    = 'none';
         document.documentElement.style.overflow = '';
     }
 </script>
