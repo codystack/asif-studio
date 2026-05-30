@@ -3,6 +3,48 @@ include "./components/head.php";
 include "./components/navbar.php";
 ?>
 
+<style>
+    .masonry-gallery {
+        columns: 3;
+        column-gap: 12px;
+    }
+    .masonry-item {
+        break-inside: avoid;
+        margin-bottom: 12px;
+        border-radius: 8px;
+        overflow: hidden;
+        cursor: pointer;
+        position: relative;
+    }
+    .masonry-item img {
+        width: 100%;
+        height: auto;
+        display: block;
+        transition: transform .5s ease;
+    }
+    .masonry-item::after {
+        content: '';
+        position: absolute;
+        inset: 0;
+        background: rgba(0,0,0,0);
+        transition: background .3s ease;
+        border-radius: 8px;
+    }
+    .masonry-item:hover img {
+        transform: scale(1.04);
+    }
+    .masonry-item:hover::after {
+        background: rgba(0,0,0,0.15);
+    }
+
+    @media (max-width: 991px) {
+        .masonry-gallery { columns: 2; }
+    }
+    @media (max-width: 576px) {
+        .masonry-gallery { columns: 1; }
+    }
+</style>
+
             <header class="tc-hero-st7">
                 <div class="hero-slider">
                     <div class="swiper-wrapper">
@@ -62,118 +104,6 @@ include "./components/navbar.php";
 
             
             <main>
-                <section class="tc-about-st7 section-padding">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <div class="title-side d-flex flex-column h-100 justify-content-between align-items-start">
-                                    <h2 class="fsz-100 letters-line"> About us <br> Asif Studio </h2>
-                                    <div class="number-wrapper">
-                                        <h3 class="num wow fadeInUp" data-wow-delay="0.1s"> 12 </h3>
-                                        <span class="float-txt"> Years Of Experiences </span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="info">
-                                    <div class="rotate-box d-none d-lg-block wow zoomIn" data-speed="1" data-lag="0.4">
-                                        <a href="#" class="rotate-circle fsz-25 rotate-text d-inline-block">
-                                            <svg class="textcircle" viewBox="0 0 500 500">
-                                                <defs>
-                                                    <path id="textcircle"
-                                                        d="M250,400 a150,150 0 0,1 0,-300a150,150 0 0,1 0,300Z">
-                                                    </path>
-                                                </defs>
-                                                <text>
-                                                    <textPath xlink:href="#textcircle" textLength="900"> - circle of elegant - elevation design </textPath>
-                                                </text>
-                                            </svg>
-                                        </a>
-                                        <span class="icon"> <img src="./assets/img/as-favicon-transparent.png" alt=""> </span>
-                                    </div>
-                                    <h2 class="fsz-100 text-lg-end mt-40 letters-line">Elevated Studio Experience</h2>
-                                    <div class="text fsz-16 cr-666 col-lg-5 mt-5 mt-lg-0"> Asif Studio is a modern creative space in Milton Keynes combining luxury tailoring with high-quality content production. From bespoke garments and alterations to professional photography, videography, and podcasts, we help individuals and brands bring their vision to life. </div>
-                                </div>
-                            </div>
-                        </div>
-                        <a href="#0" class="lg-arrow wow zoomIn" data-wow-delay="0.1s"> <img src="assets/img/arrow7.svg" alt=""> </a>
-                    </div>
-                </section>
-                <!--  End about  -->
-
-
-                <section class="tc-portfolio-st9 overflow-hidden pb-120 border-bottom border-wh-1">
-                    <div class="container">
-                        <div class="title-wrapper mb-60">
-                            <div class="row align-items-center justify-content-between">
-                                <div class="col-lg-8 mx-auto">
-                                    <h2 class="fsz-70 text-lg-center my-4 my-lg-0 letters-line"> Create. Shoot. Inspire. </h2>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="portfolio-slider position-relative pb-80">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <a href="#" class="portfolio-card-st9 d-block hover-green1">
-                                        <div class="img th-500">
-                                            <img src="assets/img/OTG_8542.jpg" alt="" class="img-cover">
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="swiper-slide">
-                                    <a href="#" class="portfolio-card-st9 d-block hover-green1">
-                                        <div class="img th-500">
-                                            <img src="assets/img/OTG_8617.jpg" alt="" class="img-cover">
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="swiper-slide">
-                                    <a href="#" class="portfolio-card-st9 d-block hover-green1">
-                                        <div class="img th-500">
-                                            <img src="assets/img/OTG_8641.jpg" alt="" class="img-cover">
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="swiper-slide">
-                                    <a href="#" class="portfolio-card-st9 d-block hover-green1">
-                                        <div class="img th-500">
-                                            <img src="assets/img/OTG_8676.jpg" alt="" class="img-cover">
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="swiper-slide">
-                                    <a href="#" class="portfolio-card-st9 d-block hover-green1">
-                                        <div class="img th-500">
-                                            <img src="assets/img/OTG_8659.jpg" alt="" class="img-cover">
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="swiper-slide">
-                                    <a href="#" class="portfolio-card-st9 d-block hover-green1">
-                                        <div class="img th-500">
-                                            <img src="assets/img/OTG_8767.jpg" alt="" class="img-cover">
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="swiper-slide">
-                                    <a href="#" class="portfolio-card-st9 d-block hover-green1">
-                                        <div class="img th-500">
-                                            <img src="assets/img/OTG_8802.jpg" alt="" class="img-cover">
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="swiper-slide">
-                                    <a href="#" class="portfolio-card-st9 d-block hover-green1">
-                                        <div class="img th-500">
-                                            <img src="assets/img/OTG_8772.jpg" alt="" class="img-cover">
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="swiper-pagination swiper-pagination-st1 pagination-green1"></div>
-                        </div>
-                    </div>
-                </section>
 
                 <section class="tc-portfolio-st7 section-padding bg-light3">
                     <div class="container">
@@ -188,14 +118,15 @@ include "./components/navbar.php";
                                 <div class="row justify-content-between">
                                     <div class="col-lg-5">
                                         <div class="img th-525 parallaxed">
-                                            <img src="assets/img/contentStudio.jpg" alt="" class="img-cover">
+                                            <img src="assets/img/contentStudio.jpg" alt="" class="img-cover" style="border-radius:10px;">
                                         </div>
                                     </div>
-                                    <div class="col-lg-5">
+                                    <div class="col-lg-6">
                                         <div class="info py-5 d-flex flex-column justify-content-between h-100 pe-lg-5">
                                             <div class="top-cont">
                                                 <h3 class="fsz-30"> Content  <br> Studio </h3>
-                                                <div class="text fsz-16 cr-666 mt-20"> A professional content studio designed for creators, brands, and businesses looking to produce premium visuals and engaging content in a modern creative environment. </div>
+                                                <div class="text fsz-16 cr-666 mt-20">Asif Studio's content studio is a purpose-built creative environment engineered for creators, brands, and businesses that refuse to compromise on quality. Whether you're launching a brand campaign, filming a product shoot, recording a podcast, or producing content for your audience — this is the space where premium ideas come to life.</div>
+                                                <div class="text fsz-16 cr-666 mt-20">Designed from the ground up for high-performance content production, every detail of our studio has been curated to give your work a professional edge. From the controlled lighting setup to the versatile backdrops and acoustic-treated podcast room, you'll find everything you need to produce content that commands attention.</div>
                                             </div>
                                             <div class="">
                                                 <a href="booking" class="butn bg-brown1 hover-bg-black hvr-txt-trans text-capitalize mt-30"> 
@@ -211,14 +142,15 @@ include "./components/navbar.php";
                                 <div class="row justify-content-between">
                                     <div class="col-lg-5">
                                         <div class="img th-525 parallaxed">
-                                            <img src="assets/img/creativeStudio.jpg" alt="" class="img-cover">
+                                            <img src="assets/img/cre3.jpeg" alt="" class="img-cover" style="border-radius:10px;">
                                         </div>
                                     </div>
-                                    <div class="col-lg-5">
+                                    <div class="col-lg-6">
                                         <div class="info py-5 d-flex flex-column justify-content-between h-100 pe-lg-5">
                                             <div class="top-cont">
                                                 <h3 class="fsz-30"> Creative <br> Studio </h3>
-                                                <div class="text fsz-16 cr-666 mt-20"> A professional content studio designed for creators, brands, and businesses looking to produce premium visuals and engaging content in a modern creative environment. </div>
+                                                <div class="text fsz-16 cr-666 mt-20">The Asif Studio Creative Studio is Milton Keynes' most refined production environment — built for those who take their craft seriously. This is where brands are built, campaigns are captured, and creative visions are executed without compromise.</div>
+                                                <div class="text fsz-16 cr-666 mt-20">We designed this studio for one purpose: to give creators, businesses, and visionaries a professional-grade environment that matches the ambition of their work. Every square foot has been considered. Every detail, intentional.</div>
                                             </div>
                                             <div class="">
                                                 <a href="booking" class="butn bg-brown1 hover-bg-black hvr-txt-trans text-capitalize mt-30"> 
@@ -232,6 +164,57 @@ include "./components/navbar.php";
                         </div>
                     </div>
                     <img src="assets/img/port7-bg.png" alt="" class="shap">
+                </section>
+
+                <section class="pb-120 border-bottom border-wh-1" style="overflow:hidden;">
+                    <div class="container">
+
+                        <div class="title-wrapper mb-60">
+                            <div class="row align-items-center justify-content-between">
+                                <div class="col-lg-8 mx-auto">
+                                    <h2 class="fsz-70 text-lg-center my-4 my-lg-0 letters-line"> Create. Shoot. Inspire. </h2>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Masonry gallery -->
+                        <div style="columns:4;column-gap:12px;" class="masonry-gallery wow fadeInUp" data-wow-delay="0.1s">
+
+                            <div class="masonry-item" onclick="openImageModal('assets/img/OTG_8542.jpg')">
+                                <img src="assets/img/OTG_8542.jpg" alt="">
+                            </div>
+
+                            <div class="masonry-item" onclick="openImageModal('assets/img/OTG_8617.jpg')">
+                                <img src="assets/img/OTG_8617.jpg" alt="">
+                            </div>
+
+                            <div class="masonry-item" onclick="openImageModal('assets/img/OTG_8641.jpg')">
+                                <img src="assets/img/OTG_8641.jpg" alt="">
+                            </div>
+
+                            <div class="masonry-item" onclick="openImageModal('assets/img/OTG_8676.jpg')">
+                                <img src="assets/img/OTG_8676.jpg" alt="">
+                            </div>
+
+                            <div class="masonry-item" onclick="openImageModal('assets/img/OTG_8659.jpg')">
+                                <img src="assets/img/OTG_8659.jpg" alt="">
+                            </div>
+
+                            <div class="masonry-item" onclick="openImageModal('assets/img/OTG_8767.jpg')">
+                                <img src="assets/img/OTG_8767.jpg" alt="">
+                            </div>
+
+                            <div class="masonry-item" onclick="openImageModal('assets/img/OTG_8802.jpg')">
+                                <img src="assets/img/OTG_8802.jpg" alt="">
+                            </div>
+
+                            <div class="masonry-item" onclick="openImageModal('assets/img/OTG_8772.jpg')">
+                                <img src="assets/img/OTG_8772.jpg" alt="">
+                            </div>
+
+                        </div>
+
+                    </div>
                 </section>
                 
                 <?php include "./components/bookingcta.php"; ?>
@@ -325,4 +308,159 @@ include "./components/navbar.php";
     document.addEventListener('keydown', function (e) {
         if (e.key === 'Escape') closeVideoModal();
     });
+</script>
+
+<script>
+    (function () {
+        var overlay = document.createElement('div');
+        Object.assign(overlay.style, {
+            display:        'none',
+            position:       'fixed',
+            top:            '0',
+            left:           '0',
+            width:          '100%',
+            height:         '100%',
+            background:     'rgba(0,0,0,0.92)',
+            zIndex:         '999999',
+            alignItems:     'center',
+            justifyContent: 'center',
+            padding:        '1rem',
+            boxSizing:      'border-box',
+            cursor:         'zoom-out'
+        });
+        overlay.addEventListener('click', closeImageModal);
+
+        var img = document.createElement('img');
+        Object.assign(img.style, {
+            maxWidth:     '100%',
+            maxHeight:    '90vh',
+            borderRadius: '8px',
+            display:      'block',
+            objectFit:    'contain',
+            userSelect:   'none'
+        });
+        img.addEventListener('click', function (e) { e.stopPropagation(); });
+
+        var closeBtn = document.createElement('button');
+        closeBtn.innerHTML = '&times;';
+        Object.assign(closeBtn.style, {
+            position:   'fixed',
+            top:        '1.25rem',
+            right:      '1.5rem',
+            background: 'none',
+            border:     'none',
+            color:      '#fff',
+            fontSize:   '2.5rem',
+            cursor:     'pointer',
+            lineHeight: '1',
+            zIndex:     '1000000',
+            padding:    '0'
+        });
+        closeBtn.addEventListener('click', closeImageModal);
+
+        var prevBtn = document.createElement('button');
+        prevBtn.innerHTML = '&#8249;';
+        Object.assign(prevBtn.style, {
+            position:     'fixed',
+            left:         '1rem',
+            top:          '50%',
+            transform:    'translateY(-50%)',
+            background:   'rgba(255,255,255,0.15)',
+            border:       'none',
+            color:        '#fff',
+            fontSize:     '2.5rem',
+            cursor:       'pointer',
+            borderRadius: '50%',
+            width:        '48px',
+            height:       '48px',
+            lineHeight:   '1',
+            zIndex:       '1000000'
+        });
+
+        var nextBtn = document.createElement('button');
+        nextBtn.innerHTML = '&#8250;';
+        Object.assign(nextBtn.style, {
+            position:     'fixed',
+            right:        '1rem',
+            top:          '50%',
+            transform:    'translateY(-50%)',
+            background:   'rgba(255,255,255,0.15)',
+            border:       'none',
+            color:        '#fff',
+            fontSize:     '2.5rem',
+            cursor:       'pointer',
+            borderRadius: '50%',
+            width:        '48px',
+            height:       '48px',
+            lineHeight:   '1',
+            zIndex:       '1000000'
+        });
+
+        overlay.appendChild(img);
+        document.body.appendChild(overlay);
+        document.body.appendChild(closeBtn);
+        document.body.appendChild(prevBtn);
+        document.body.appendChild(nextBtn);
+
+        var images  = [];
+        var current = 0;
+
+        function show(index) {
+            current = index;
+            img.src = images[current];
+            prevBtn.style.display = images.length > 1 ? 'block' : 'none';
+            nextBtn.style.display = images.length > 1 ? 'block' : 'none';
+        }
+
+        prevBtn.addEventListener('click', function (e) {
+            e.stopPropagation();
+            show((current - 1 + images.length) % images.length);
+        });
+
+        nextBtn.addEventListener('click', function (e) {
+            e.stopPropagation();
+            show((current + 1) % images.length);
+        });
+
+        document.addEventListener('keydown', function (e) {
+            if (overlay.style.display === 'none') return;
+            if (e.key === 'Escape')     closeImageModal();
+            if (e.key === 'ArrowLeft')  show((current - 1 + images.length) % images.length);
+            if (e.key === 'ArrowRight') show((current + 1) % images.length);
+        });
+
+        window._imgOverlay = overlay;
+        window._imgEl      = img;
+        window._imgClose   = closeBtn;
+        window._imgPrev    = prevBtn;
+        window._imgNext    = nextBtn;
+        window._setImages  = function (arr, idx) { images = arr; show(idx); };
+    })();
+
+    var _collageImages = [
+        'assets/img/OTG_8542.jpg',
+        'assets/img/OTG_8617.jpg',
+        'assets/img/OTG_8641.jpg',
+        'assets/img/OTG_8676.jpg',
+        'assets/img/OTG_8659.jpg',
+        'assets/img/OTG_8767.jpg',
+        'assets/img/OTG_8802.jpg',
+        'assets/img/OTG_8772.jpg'
+    ];
+
+    function openImageModal(src) {
+        var idx = _collageImages.indexOf(src);
+        window._setImages(_collageImages, idx === -1 ? 0 : idx);
+        window._imgOverlay.style.display = 'flex';
+        window._imgClose.style.display   = 'block';
+        document.documentElement.style.overflow = 'hidden';
+    }
+
+    function closeImageModal() {
+        window._imgOverlay.style.display = 'none';
+        window._imgClose.style.display   = 'none';
+        window._imgPrev.style.display    = 'none';
+        window._imgNext.style.display    = 'none';
+        document.documentElement.style.overflow = '';
+    }
 </script>
