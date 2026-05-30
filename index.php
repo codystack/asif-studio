@@ -169,7 +169,7 @@ include "./components/navbar.php";
                 <section class="pb-120 border-bottom border-wh-1" style="overflow:hidden;">
                     <div class="container">
 
-                        <div class="title-wrapper mb-60">
+                        <div class="title-wrapper mb-60 mt-60">
                             <div class="row align-items-center justify-content-between">
                                 <div class="col-lg-8 mx-auto">
                                     <h2 class="fsz-70 text-lg-center my-4 my-lg-0 letters-line"> Create. Shoot. Inspire. </h2>
